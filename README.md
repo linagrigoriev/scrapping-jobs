@@ -3,3 +3,7 @@
 `
 pip install requests-html
 `
+## Instal supporting browsers
+`
+playwright install
+`

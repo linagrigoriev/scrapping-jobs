@@ -63,10 +63,6 @@ async def scrape_multiple_pages(base_url, pages=3):
 
 # scraping data
 async def main():
-    # Scrape job data from the specified URL
     await scrape_multiple_pages(url)
 
-# The main function
 asyncio.run(main()) 
-    
-    

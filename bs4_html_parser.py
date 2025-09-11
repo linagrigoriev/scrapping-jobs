@@ -35,7 +35,8 @@ def save_to_sf():
     df = pd.DataFrame(total_data, columns=["Title", "Company Name", "Company Location"])
     df.to_csv("d.csv", index="False")
 
-def main():
+def bs4_parser_csv():
     save_to_sf()
 
-main()
+if __name__ == "__main__": 
+    bs4_parser_csv()

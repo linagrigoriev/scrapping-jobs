@@ -22,4 +22,4 @@ for i, listing in enumerate(listings):
 # Dataframe
 
 df = pd.DataFrame(total_data, columns=["Title", "Company Name", "Company Location"])
-print(df)
+df.to_csv("d.csv", index="False")
